@@ -1,0 +1,113 @@
+ <!DOCTYPE html> 
+ <html lang="en"> 
+   <head> 
+     <meta charset="utf-8"> 
+    <meta charset="utf-8"> 
+     <script src="js/main.js"></script>     
+	 <script type = "text/javascript" src = "lausagwapobotstarp/js/jquery-slim.min.js"></script>
+	<script type = "text/javascript" src = "lausagwapobotstarp/js/popper.min.js"></script>
+	<script type = "text/javascript" src = "lausagwapobotstarp/js/bootstrap.js"></script>
+	
+	
+     <title>Daily Plainner</title> 
+ 
+ 
+     <!-- Bootstrap core CSS --> 
+     <link href="css/bootstrap.css" rel="stylesheet"> 
+ 
+ 
+     <!-- Custom styles for this template --> 
+     <link href="css/style.css" rel="stylesheet"> 
+ 
+ 
+   </head> 
+ 
+   </head> 
+ 
+ 
+   <body>  
+ 
+     <nav class="navbar navbar-inverse navbar-fixed-top"> 
+       <div class="container"> 
+         <div class="navbar-header"> 
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> 
+             <span class="sr-only">Toggle navigation</span> 
+             <span class="icon-bar"></span> 
+             <span class="icon-bar"></span> 
+             <span class="icon-bar"></span>            </button> 
+           <a class="navbar-brand" href="#">Daily Planner</a> 
+         </div> 
+         <div id="navbar" class="collapse navbar-collapse navbar-right"> 
+           <ul class="nav navbar-nav"> 
+             <li><a href="index.html">Home</a></li> 
+			   <li><a href="add.html">Add</a></li> 
+	     <li><a href="list.html">List</a></li> 
+		 <li><a href="Delete.html">Delete</a></li> 
+           </ul> 
+         </div><!--/.nav-collapse --> 
+       </div> 
+     </nav> 
+ 
+ 
+     <div class="container"> 
+ 
+ 
+       <h2 class="page-header">Add Task</h2> 
+ <body onload="doShowAll()">
+	<form name=ListOfDebt>
+		
+			<table>
+				<br>
+				<tr>
+
+					
+
+			
+
+
+		</div>
+
+       <form id="add-task-form" role="form" action="index.html"> 
+          
+         <div class="form-group"> 
+           <label>Task</label> 
+           <input type="text" class="form-control" id="task" placeholder="Enter task"> 
+         </div> 
+          
+         <div class="form-group"> 
+           <label>Priority</label> 
+           <select id="priority" class="form-control"> 
+             <option value="low">Low</option> 
+             <option value="normal" selected>Normal</option> 
+             <option value="high">High</option> 
+ 
+ 
+           </select> 
+         </div> 
+          
+         <div class="form-group"> 
+           <label>Date</label> 
+           <input type="date" id="date" class="form-control"> 
+         </div> 
+          
+         <div class="form-group"> 
+           <label>Time</label> 
+           <input type="time" id="time" class="form-control"> 
+         </div> 
+ 
+   <input type=button value="Save"   onclick="SaveItem()">
+ 
+ 
+       </form> 
+ 
+ 
+     </div><!-- /.container --> 
+ 
+				</tr>
+
+ 
+ 
+			</table>
+
+   </body> 
+ </html> 
